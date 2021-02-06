@@ -37,5 +37,9 @@ public class LinkedListTest {
         testList.addFirst("stringFirst");
         System.out.println(testList);
 
+        System.out.println(testList.isEmpty());
+
+        System.out.println(testList.contains("string4"));
+
     }
 }
