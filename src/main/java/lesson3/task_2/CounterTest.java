@@ -16,7 +16,7 @@ public class CounterTest {
             });
             thread.start();
         }
-        Thread.sleep(1000);
+        Thread.sleep(1000);//ждем созданные потоки
         System.out.println(counter.getCounter());
     }
 
